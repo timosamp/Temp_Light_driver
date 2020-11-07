@@ -1,0 +1,144 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BATT	lunix.h	/^enum lunix_msr_enum { BATT = 0, TEMP, LIGHT, N_LUNIX_MSR };$/;"	e	enum:lunix_msr_enum
+CC	Makefile	/^CC = gcc$/;"	m
+DEBUG	Makefile	/^DEBUG = y$/;"	m
+KERNELDIR	Makefile	/^KERNELDIR ?= \/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNEL_VERBOSE	Makefile	/^KERNEL_VERBOSE = 'V=1'$/;"	m
+LIGHT	lunix.h	/^enum lunix_msr_enum { BATT = 0, TEMP, LIGHT, N_LUNIX_MSR };$/;"	e	enum:lunix_msr_enum
+LIGHT_OFFSET	lunix-protocol.h	26;"	d
+LUNIX_CHRDEV_BUFSZ	lunix-chrdev.h	17;"	d
+LUNIX_CHRDEV_MAJOR	lunix-chrdev.h	16;"	d
+LUNIX_IOC_MAGIC	lunix-chrdev.h	61;"	d
+LUNIX_IOC_MAXNR	lunix-chrdev.h	64;"	d
+LUNIX_MSR_MAGIC	lunix.h	28;"	d
+LUNIX_SENSOR_CNT	lunix.h	54;"	d
+LUNIX_VERSION_STRING	lunix.h	14;"	d
+MAX_PACKET_LEN	lunix-protocol.h	21;"	d
+NODE_OFFSET	lunix-protocol.h	23;"	d
+N_LUNIX_LDISC	lunix.h	98;"	d
+N_LUNIX_MSR	lunix.h	/^enum lunix_msr_enum { BATT = 0, TEMP, LIGHT, N_LUNIX_MSR };$/;"	e	enum:lunix_msr_enum
+PACKET_SIGNATURE_OFFSET	lunix-protocol.h	22;"	d
+PWD	Makefile	/^PWD       := $(shell pwd)$/;"	m
+SEEKING_AM_GROUP	lunix-protocol.h	35;"	d
+SEEKING_AM_TYPE	lunix-protocol.h	34;"	d
+SEEKING_CRC	lunix-protocol.h	38;"	d
+SEEKING_DESTINATION_ADDRESS	lunix-protocol.h	33;"	d
+SEEKING_END_BYTE	lunix-protocol.h	39;"	d
+SEEKING_PACKET_TYPE	lunix-protocol.h	32;"	d
+SEEKING_PAYLOAD	lunix-protocol.h	37;"	d
+SEEKING_PAYLOAD_LENGTH	lunix-protocol.h	36;"	d
+SEEKING_START_BYTE	lunix-protocol.h	31;"	d
+TEMP	lunix.h	/^enum lunix_msr_enum { BATT = 0, TEMP, LIGHT, N_LUNIX_MSR };$/;"	e	enum:lunix_msr_enum
+TEMPERATURE_OFFSET	lunix-protocol.h	25;"	d
+USER_CFLAGS	Makefile	/^USER_CFLAGS = -Wall -Werror #-m32$/;"	m
+VREF_OFFSET	lunix-protocol.h	24;"	d
+_LUNIX_CHRDEV_H	lunix-chrdev.h	11;"	d
+_LUNIX_H	lunix.h	11;"	d
+_LUNIX_LDISC_H	lunix-ldisc.h	12;"	d
+_LUNIX_PROTOCOL_H	lunix-protocol.h	14;"	d
+_PATH_LOCKD	lunix-attach.c	37;"	d	file:
+_UID_UUCP	lunix-attach.c	40;"	d	file:
+__this_module	lunix.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	lunix.mod.c	/^__used$/;"	v	file:
+__used	lunix.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+buf_data	lunix-chrdev.h	/^	unsigned char buf_data[LUNIX_CHRDEV_BUFSZ];$/;"	m	struct:lunix_chrdev_state_struct
+buf_lim	lunix-chrdev.h	/^	int buf_lim;$/;"	m	struct:lunix_chrdev_state_struct
+buf_timestamp	lunix-chrdev.h	/^	uint32_t buf_timestamp;$/;"	m	struct:lunix_chrdev_state_struct
+bytes_read	lunix-protocol.h	/^	int bytes_read;	$/;"	m	struct:lunix_protocol_state_struct
+bytes_to_read	lunix-protocol.h	/^	int bytes_to_read;$/;"	m	struct:lunix_protocol_state_struct
+code	lunix-attach.c	/^	int code;$/;"	m	struct:__anon1	file:
+debug	lunix.h	64;"	d
+debug	lunix.h	66;"	d
+last_update	lunix.h	/^	uint32_t last_update;$/;"	m	struct:lunix_msr_data_struct
+ldisc_before	lunix-attach.c	/^int ldisc_before;$/;"	v
+lock	lunix-chrdev.h	/^	struct semaphore lock;$/;"	m	struct:lunix_chrdev_state_struct	typeref:struct:lunix_chrdev_state_struct::semaphore
+lock	lunix.h	/^	spinlock_t lock;$/;"	m	struct:lunix_sensor_struct
+lookup_light	lunix-lookup.h	/^long lookup_light[65536] = {$/;"	v
+lookup_temperature	lunix-lookup.h	/^long lookup_temperature[65536] = {$/;"	v
+lookup_voltage	lunix-lookup.h	/^long lookup_voltage[65536] = {$/;"	v
+lunix-objs	Makefile	/^lunix-objs := lunix-module.o lunix-chrdev.o lunix-ldisc.o lunix-protocol.o lunix-sensors.o$/;"	m
+lunix_chrdev_cdev	lunix-chrdev.c	/^struct cdev lunix_chrdev_cdev;$/;"	v	typeref:struct:cdev
+lunix_chrdev_destroy	lunix-chrdev.c	/^void lunix_chrdev_destroy(void)$/;"	f
+lunix_chrdev_fops	lunix-chrdev.c	/^static struct file_operations lunix_chrdev_fops = $/;"	v	typeref:struct:file_operations	file:
+lunix_chrdev_init	lunix-chrdev.c	/^int lunix_chrdev_init(void)$/;"	f
+lunix_chrdev_ioctl	lunix-chrdev.c	/^static long lunix_chrdev_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	file:
+lunix_chrdev_mmap	lunix-chrdev.c	/^static int lunix_chrdev_mmap(struct file *filp, struct vm_area_struct *vma)$/;"	f	file:
+lunix_chrdev_open	lunix-chrdev.c	/^static int lunix_chrdev_open(struct inode *inode, struct file *filp)$/;"	f	file:
+lunix_chrdev_read	lunix-chrdev.c	/^static ssize_t lunix_chrdev_read(struct file *filp, char __user *usrbuf, size_t cnt, loff_t *f_pos)$/;"	f	file:
+lunix_chrdev_release	lunix-chrdev.c	/^static int lunix_chrdev_release(struct inode *inode, struct file *filp)$/;"	f	file:
+lunix_chrdev_state_needs_refresh	lunix-chrdev.c	/^static int lunix_chrdev_state_needs_refresh(struct lunix_chrdev_state_struct *state)$/;"	f	file:
+lunix_chrdev_state_struct	lunix-chrdev.h	/^struct lunix_chrdev_state_struct {$/;"	s
+lunix_chrdev_state_update	lunix-chrdev.c	/^static int lunix_chrdev_state_update(struct lunix_chrdev_state_struct *state)$/;"	f	file:
+lunix_disc_available	lunix-ldisc.c	/^static atomic_t lunix_disc_available;$/;"	v	file:
+lunix_ldisc_close	lunix-ldisc.c	/^static void lunix_ldisc_close(struct tty_struct *tty)$/;"	f	file:
+lunix_ldisc_destroy	lunix-ldisc.c	/^void lunix_ldisc_destroy(void)$/;"	f
+lunix_ldisc_init	lunix-ldisc.c	/^int lunix_ldisc_init(void)$/;"	f
+lunix_ldisc_open	lunix-ldisc.c	/^static int lunix_ldisc_open(struct tty_struct *tty)$/;"	f	file:
+lunix_ldisc_ops	lunix-ldisc.c	/^static struct tty_ldisc_ops lunix_ldisc_ops = {$/;"	v	typeref:struct:tty_ldisc_ops	file:
+lunix_ldisc_read	lunix-ldisc.c	/^static ssize_t lunix_ldisc_read(struct tty_struct * tty, struct file * file,$/;"	f	file:
+lunix_ldisc_receive	lunix-ldisc.c	/^static void lunix_ldisc_receive(struct tty_struct *tty,$/;"	f	file:
+lunix_ldisc_write	lunix-ldisc.c	/^static ssize_t lunix_ldisc_write(struct tty_struct * tty, struct file * file,$/;"	f	file:
+lunix_module_cleanup	lunix-module.c	/^module_exit(lunix_module_cleanup);$/;"	v
+lunix_module_cleanup	lunix-module.c	/^void __exit lunix_module_cleanup(void)$/;"	f
+lunix_module_init	lunix-module.c	/^int __init lunix_module_init(void)$/;"	f
+lunix_module_init	lunix-module.c	/^module_init(lunix_module_init);$/;"	v
+lunix_msr_data_struct	lunix.h	/^struct lunix_msr_data_struct {$/;"	s
+lunix_msr_enum	lunix.h	/^enum lunix_msr_enum { BATT = 0, TEMP, LIGHT, N_LUNIX_MSR };$/;"	g
+lunix_protocol_init	lunix-protocol.c	/^void lunix_protocol_init(struct lunix_protocol_state_struct *state)$/;"	f
+lunix_protocol_parse_state	lunix-protocol.c	/^static int lunix_protocol_parse_state(struct lunix_protocol_state_struct *state,$/;"	f	file:
+lunix_protocol_received_buf	lunix-protocol.c	/^int lunix_protocol_received_buf(struct lunix_protocol_state_struct *state,$/;"	f
+lunix_protocol_show_packet	lunix-protocol.c	/^static inline void lunix_protocol_show_packet(struct lunix_protocol_state_struct *state)$/;"	f	file:
+lunix_protocol_state	lunix-module.c	/^struct lunix_protocol_state_struct lunix_protocol_state;$/;"	v	typeref:struct:lunix_protocol_state_struct
+lunix_protocol_state_struct	lunix-protocol.h	/^struct lunix_protocol_state_struct$/;"	s
+lunix_protocol_update_sensors	lunix-protocol.c	/^static void lunix_protocol_update_sensors(struct lunix_protocol_state_struct *state, struct lunix_sensor_struct *lunix_sensors)$/;"	f	file:
+lunix_sensor_cnt	lunix-module.c	/^int lunix_sensor_cnt = LUNIX_SENSOR_CNT;$/;"	v
+lunix_sensor_destroy	lunix-sensors.c	/^void lunix_sensor_destroy(struct lunix_sensor_struct *s)$/;"	f
+lunix_sensor_init	lunix-sensors.c	/^int lunix_sensor_init(struct lunix_sensor_struct *s)$/;"	f
+lunix_sensor_struct	lunix.h	/^struct lunix_sensor_struct {$/;"	s
+lunix_sensor_update	lunix-sensors.c	/^void lunix_sensor_update(struct lunix_sensor_struct *s,$/;"	f
+lunix_sensors	lunix-module.c	/^struct lunix_sensor_struct *lunix_sensors;$/;"	v	typeref:struct:lunix_sensor_struct
+magic	lunix.h	/^	uint32_t magic;$/;"	m	struct:lunix_msr_data_struct
+main	lunix-attach.c	/^int main(int argc, char *argv[])$/;"	f
+main	mk_lookup_tables.c	/^int main(void)$/;"	f
+msr_data	lunix.h	/^	struct lunix_msr_data_struct *msr_data[N_LUNIX_MSR];$/;"	m	struct:lunix_sensor_struct	typeref:struct:lunix_sensor_struct::lunix_msr_data_struct
+next_is_special	lunix-protocol.h	/^	unsigned char next_is_special;  \/* The next character to be received is a special character *\/$/;"	m	struct:lunix_protocol_state_struct
+obj-m	Makefile	/^obj-m	:= lunix.o$/;"	m
+packet	lunix-protocol.h	/^	unsigned char packet[MAX_PACKET_LEN]; \/* The XMesh packet being received *\/$/;"	m	struct:lunix_protocol_state_struct
+payload_length	lunix-protocol.h	/^	unsigned char payload_length;   \/* The length of the payload of the received packet *\/$/;"	m	struct:lunix_protocol_state_struct
+pos	lunix-protocol.h	/^	int pos;                        \/* Current pos in the XMesh Packet *\/$/;"	m	struct:lunix_protocol_state_struct
+sensor	lunix-chrdev.h	/^	struct lunix_sensor_struct *sensor;$/;"	m	struct:lunix_chrdev_state_struct	typeref:struct:lunix_chrdev_state_struct::lunix_sensor_struct
+set_state	lunix-protocol.c	/^static inline void set_state(struct lunix_protocol_state_struct *statep, int state, int btr, int br)$/;"	f	file:
+sig_catch	lunix-attach.c	/^static void sig_catch(int sig)$/;"	f	file:
+speed	lunix-attach.c	/^	const char *speed;$/;"	m	struct:__anon1	file:
+state	lunix-protocol.h	/^	int state;                      \/* The current state of the protocol state machine *\/$/;"	m	struct:lunix_protocol_state_struct
+tty_already_locked	lunix-attach.c	/^static int tty_already_locked(char *nam)$/;"	f	file:
+tty_before	lunix-attach.c	/^struct termios tty_before, tty_current;$/;"	v	typeref:struct:termios
+tty_close	lunix-attach.c	/^static int tty_close(void)$/;"	f	file:
+tty_current	lunix-attach.c	/^struct termios tty_before, tty_current;$/;"	v	typeref:struct:
+tty_fd	lunix-attach.c	/^int tty_fd = -1;$/;"	v
+tty_find_speed	lunix-attach.c	/^static int tty_find_speed(const char *speed)$/;"	f	file:
+tty_get_ldisc	lunix-attach.c	/^static int tty_get_ldisc(int *disc)$/;"	f	file:
+tty_get_state	lunix-attach.c	/^static int tty_get_state(struct termios *tty)$/;"	f	file:
+tty_lock	lunix-attach.c	/^static int tty_lock(char *path, int mode)$/;"	f	file:
+tty_open	lunix-attach.c	/^static int tty_open(char *name)$/;"	f	file:
+tty_restore	lunix-attach.c	/^static int tty_restore(void)$/;"	f	file:
+tty_set_databits	lunix-attach.c	/^static int tty_set_databits(struct termios *tty, char *databits)$/;"	f	file:
+tty_set_ldisc	lunix-attach.c	/^static int tty_set_ldisc(int disc)$/;"	f	file:
+tty_set_parity	lunix-attach.c	/^static int tty_set_parity(struct termios *tty, char *parity)$/;"	f	file:
+tty_set_raw	lunix-attach.c	/^static int tty_set_raw(struct termios *tty)$/;"	f	file:
+tty_set_speed	lunix-attach.c	/^static int tty_set_speed(struct termios *tty, const char *speed)$/;"	f	file:
+tty_set_state	lunix-attach.c	/^static int tty_set_state(struct termios *tty)$/;"	f	file:
+tty_set_stopbits	lunix-attach.c	/^static int tty_set_stopbits(struct termios *tty, char *stopbits)$/;"	f	file:
+tty_speeds	lunix-attach.c	/^} tty_speeds[] = {			\/* table of usable baud rates	*\/$/;"	v	typeref:struct:__anon1
+type	lunix-chrdev.h	/^	enum lunix_msr_enum type;$/;"	m	struct:lunix_chrdev_state_struct	typeref:enum:lunix_chrdev_state_struct::lunix_msr_enum
+uint16_from_packet	lunix-protocol.c	/^static uint16_t uint16_from_packet(unsigned char *p)$/;"	f	file:
+uint16_to_batt	mk_lookup_tables.c	/^long uint16_to_batt(uint16_t value)$/;"	f
+uint16_to_light	mk_lookup_tables.c	/^long uint16_to_light(uint16_t value)$/;"	f
+uint16_to_temp	mk_lookup_tables.c	/^long uint16_to_temp(uint16_t value)$/;"	f
+values	lunix.h	/^	uint32_t values[];$/;"	m	struct:lunix_msr_data_struct
+wq	lunix.h	/^	wait_queue_head_t wq;$/;"	m	struct:lunix_sensor_struct

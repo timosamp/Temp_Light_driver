@@ -1,0 +1,9 @@
+#!/bin/bash
+make clean
+make
+gcc -Wall bytebyte.c -o bytebyte
+gcc -Wall forking.c -o forking
+rmmod lunix.ko
+insmod ./lunix.ko
+./lunix_dev_nodes.sh
+./lunix-attach ttyS0

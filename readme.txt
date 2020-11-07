@@ -1,0 +1,1 @@
+This project was took part in the context of the course "Operating System Lab" at the School of Electrical Engineering and Computer Science of NTUA. The aim was to create a driver for reading measures from a temperature and light sensors connected to the usb port.
